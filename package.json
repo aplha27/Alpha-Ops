@@ -5,6 +5,7 @@
   "scripts": {
   "dev": "npx vite",
   "build": "npx vite build",
+"postinstall": "chmod +x /vercel/path0/node_modules/.bin/vite",
   "preview": "npx vite preview"
  },
   "dependencies": {
